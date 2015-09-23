@@ -20,9 +20,12 @@
             android:text="@string/account_no"/>
 
         <EditText
+            android:id="@+id/edt_acc_no"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.7"
+            android:inputType="number"
+            android:imeOptions="actionNext"
             android:hint="@string/account_no"/>
 
     </LinearLayout>
@@ -41,9 +44,12 @@
             android:text="@string/usage"/>
 
         <EditText
+            android:id="@+id/edt_usage"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.7"
+            android:inputType="number"
+            android:imeOptions="actionDone"
             android:hint="@string/usage"/>
 
     </LinearLayout>
@@ -56,12 +62,14 @@
 
 
         <Button
+            android:id="@+id/cancel"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
             android:text="@string/cancel"/>
 
         <Button
+            android:id="@+id/save"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
